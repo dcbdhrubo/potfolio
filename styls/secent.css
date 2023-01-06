@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.baba{
+    display: flex;
+    justify-content:space-between ;
+    height: 50px;
+    background-color:  #FDFEFE;
+    padding: 0 100px;
+    align-items: center;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+.home{
+    background-color: red;
+    border-radius: 10px 0;
+    color: azure;
+}
+
+nav ul{
+      list-style: none;
+      display: flex;
+}
+nav li{
+    margin-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: blue;
+    border-radius: 10px 0;
+    color: #FBFCFC;
+
+}
+
+.logo{
+    height: 40px;
+}
+.blood{
+    color: red;
+}
+.blood1{
+    font-family: 25px;
+    margin-left: 20px;
+}
+
+.cover{
+    height: 500px;
+    width: 980px;
+    padding: 20px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.header-title{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #A569BD;
+    text-align: center;
+
+}
+.header-description{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+    text-align: center;
+    color: #212F3D;
+}
+.donate{
+    position: absolute;
+    margin-top: 240px;
+    margin-left:320px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px 0;
+    font-weight: 800;
+    background-color:  #E74C3C;
+    color: #FBFCFC;
+}
+.donate:hover{
+    background-color: blue;
+}
+
+/* Banner style*/
+.banner{
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-description{
+    margin-top: 20px;
+}
+.banner-tk{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    justify-content: center;
+    color: #566573;
+}
+
+.banner-tk li:hover{
+    background-color: #D2B4DE;
+    color: #FDFEFE;
+    
+}
+
+.banner-tk li{
+    margin :30px;
+    margin-top: 50px;
+    border: 1px solid #E74C3C;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(23, 4, 229, 0.903),
+                0px 0px 10px rgba(0, 0, 0, 0.3),
+                0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.two{
+    background-color: burlywood;
+}
+.banner-footer{
+    margin-top: 20px;
+    color: #566573;
+    margin-bottom: 10px;
+}
+.hori{
+    width: 600px;
+    margin-left: 200px;
+}
+.donate1{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 800;
+    color: #FBFCFC;
+    background-color:#E74C3C;
+    border-radius: 10px 0;
+}
+.donate1:hover{
+    background-color: blue;
+    color: #F0F3F4;
+}
+.header-title1{
+    margin-top: 60px;
+}
+.header-description1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* our donate Plan style */
+
+.picture{
+    height: 50px;
+}
+.donate-container{
+    display: flex;
+    margin:0 100px ;
+    margin-top: 40px;
+    gap: 24px
+    ;
+}
+.donate-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.donate5{
+    padding: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3),
+                0px 0px 10px rgba(0, 0, 0, 0.3),
+                0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.donate-description{
+    font-size: 16px;
+    text-align: left;
+}
+/* last-continer style */
+.last-continer{
+    display: flex;
+    margin: 0 100px;
+    margin-top: 30px;
+    gap:20px;
+}
+.last-title5{
+    font-size: 20px;
+    font-weight: 800px;
+    color: black;
+    margin-bottom: 20px;
+}
+.last-button{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3),
+    0px 0px 10px rgba(0, 0, 0, 0.3),
+    0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.last-button:hover{
+    background-color: #BB8FCE;
+    border-radius: 3px;
+    
+}
+
+.last-continer1{
+    padding: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3),
+                0px 0px 10px rgba(0, 0, 0, 0.3),
+                0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.last-continer2{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3),
+                0px 0px 10px rgba(0, 0, 0, 0.3),
+                0px 0px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.photo5{
+    height: 300px;
+    width: 300px;
+}
+
+
+/* footer style */
+.footer1{
+    text-align: center;
+    margin-top: 60px;
+}
+.footer-fast-description{
+    margin-top: 10px;
+}
+
+.footer2{
+    height: 150px;
+    width: 500px;
+    background-color: #E74C3C;
+    text-align: center ;
+    margin-left: 250px;
+    margin-top: 40px;
+     
+}
+ 
+.class10{
+    height: 140px;
+    margin-top: 30px;
+    width: 500px;
+    background-color: #F9E79F;
+    margin-left: 250px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3),
+    0px 0px 10px rgba(0, 0, 0, 0.3),
+    0px 0px 15px rgba(0, 0, 0, 0.3);
+
+}
+.lasr-continear50{
+    text-align: center;
+    height: 200px;
+}
+
+.last-continer10{
+    text-align: center;
+    padding-top: 70px;
+}
+.button555{
+    font-size: 16px;
+    color: #212F3D;
+    padding: 5px;
+    margin-left: 10px; 
+    font-weight: 800;
+    border-radius: 10px 0;
+    border-color: 1px solid #212F3D;
+}
+.button555:hover{
+    background-color: #E74C3C;
+    color: #FDFEFE;
+}
+
+
+.fast-email{
+    height: 30px;
+    background-color: #CCD1D1;
+    border-color: 1px solid #212F3D;
+    border-radius: 5px;
+}
+.last-black{
+    margin-top: 50px;
+    height: 130px;
+    background-color: #212F3D;
+}
+.last-black-continear{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.footer-title{
+    color: #D35400;
+
+}
+.footer-description{
+    color: #F4F6F7;
+}
